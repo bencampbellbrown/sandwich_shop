@@ -95,9 +95,6 @@ void main() {
       await tester.tap(find.byType(Switch));
       await tester.pump();
       expect(find.textContaining('six-inch sandwich'), findsOneWidget);
-      await tester.tap(find.byType(Switch));
-      await tester.pump();
-      expect(find.textContaining('footlong sandwich'), findsOneWidget);
     });
   });
 

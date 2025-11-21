@@ -266,6 +266,7 @@ class OrderItemDisplay extends StatelessWidget {
     required this.orderNote,
   });
 
+  
   @override
   Widget build(BuildContext context) {
     String displayText =
